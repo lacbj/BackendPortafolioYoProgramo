@@ -19,7 +19,7 @@ public class YoprogramoApplication {
         return new WebMvcConfigurer() {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
-                registry.addMapping("/**").allowedOrigins("http://localhost:4200").allowedMethods("*").allowedHeaders("*");
+                registry.addMapping("/3306").allowedOrigins("http://localhost:4200").allowedMethods("*").allowedHeaders("*");
             }
 
         }; 
