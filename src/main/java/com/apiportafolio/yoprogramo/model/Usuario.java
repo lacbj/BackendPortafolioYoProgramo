@@ -31,8 +31,7 @@ public class Usuario implements Serializable {
     private String titulo;
     private String descripcion;
     private String fotoPerfil;
-    private String empresa;
-    
+    private String empresa;    
 
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "idEdu")
     private List<Educacion> educacionList;
@@ -56,7 +55,6 @@ public class Usuario implements Serializable {
         this.fotoPerfil = fotoPerfil;
         this.empresa = empresa;
     }
-
    
     public Long getId() {
         return id;
@@ -113,9 +111,6 @@ public class Usuario implements Serializable {
     public void setEmpresa(String empresa) {
         this.empresa = empresa;
     }
-    
-    
-    
-    
-    
+  
+      
 }

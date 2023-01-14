@@ -65,7 +65,6 @@ public class UsuarioService {
          return usuarioRepo.findById(id).orElse(null);
          
      }
-    
 }
 
 
