@@ -1,11 +1,15 @@
 com\apiportafolio\yoprogramo\Controller\ProgresoController.class
 com\apiportafolio\yoprogramo\repository\PersonaRepository.class
+com\apiportafolio\yoprogramo\WebConfig.class
 com\apiportafolio\yoprogramo\Controller\EncabezadoController.class
+com\apiportafolio\yoprogramo\model\User.class
+com\apiportafolio\yoprogramo\service\UserService.class
 com\apiportafolio\yoprogramo\model\Usuario.class
 com\apiportafolio\yoprogramo\service\PersonaService.class
 com\apiportafolio\yoprogramo\service\SkillsService.class
 com\apiportafolio\yoprogramo\Controller\UsuarioController.class
 com\apiportafolio\yoprogramo\Controller\Controller.class
+com\apiportafolio\yoprogramo\repository\UserRepository.class
 com\apiportafolio\yoprogramo\model\Persona.class
 com\apiportafolio\yoprogramo\model\Educacion.class
 com\apiportafolio\yoprogramo\service\UsuarioService.class
